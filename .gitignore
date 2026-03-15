@@ -1,0 +1,64 @@
+# Local environment and machine-specific overrides
+.env
+.env.*
+!.env.example
+appsettings.Local.json
+appsettings.*.local.json
+
+# Might contain secrets, so we ignore them by default. You can create a local override for development and add it to .gitignore.
+appsettings.Development.json
+appsettings.json
+
+# macOS
+.DS_Store
+
+# Editors and IDEs
+.vs/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.rsuser
+*.sln.docstates
+*.DotSettings.user
+
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/*.code-snippets
+
+# .NET build output
+**/bin/
+**/obj/
+**/out/
+[Dd]ebug/
+[Rr]elease/
+[Bb]uild/
+artifacts/
+
+# Test and coverage output
+TestResults/
+coverage/
+coverage-*/
+BenchmarkDotNet.Artifacts/
+*.coverage
+*.coveragexml
+*.trx
+
+# NuGet packages and archives
+packages/
+*.nupkg
+*.snupkg
+project.lock.json
+project.fragment.lock.json
+
+# Logs and temp files
+*.log
+*.tmp
+*.temp
+*.cache
+*.pid
+*.seed
+

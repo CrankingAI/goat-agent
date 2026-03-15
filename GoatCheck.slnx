@@ -1,0 +1,9 @@
+<Solution>
+  <Project Path="src/GoatCheck.AppHost/GoatCheck.AppHost.csproj" />
+  <Project Path="src/GoatCheck.ServiceDefaults/GoatCheck.ServiceDefaults.csproj" />
+  <Project Path="src/GoatCheck.Agent/GoatCheck.Agent.csproj" />
+  <Project Path="src/GoatCheck.Api/GoatCheck.Api.csproj" />
+  <Project Path="src/GoatCheck.Console/GoatCheck.Console.csproj" />
+  <Project Path="src/GoatCheck.Tests/GoatCheck.Tests.csproj" />
+  <Project Path="src/GoatCheck.Evals/GoatCheck.Evals.csproj" />
+</Solution>

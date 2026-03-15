@@ -1,0 +1,29 @@
+flowchart TD
+  era_context_lookup["era_context_lookup (Start)"];
+  candidate_dispatch["candidate_dispatch"];
+  statistical_achievements_scorer["statistical_achievements_scorer"];
+  peer_recognition_scorer["peer_recognition_scorer"];
+  dominance_window_scorer["dominance_window_scorer"];
+  head_to_head_scorer["head_to_head_scorer"];
+  cultural_impact_scorer["cultural_impact_scorer"];
+  per_candidate_score_rollup["per_candidate_score_rollup"];
+  per_candidate_narrative_rollup["per_candidate_narrative_rollup"];
+  hot_take_voice["hot_take_voice"];
+  per_candidate_assembly["per_candidate_assembly"];
+
+  fan_in_per_candidate_score_rollup_B5636B8D((fan-in))
+  cultural_impact_scorer --> fan_in_per_candidate_score_rollup_B5636B8D;
+  dominance_window_scorer --> fan_in_per_candidate_score_rollup_B5636B8D;
+  head_to_head_scorer --> fan_in_per_candidate_score_rollup_B5636B8D;
+  peer_recognition_scorer --> fan_in_per_candidate_score_rollup_B5636B8D;
+  statistical_achievements_scorer --> fan_in_per_candidate_score_rollup_B5636B8D;
+  fan_in_per_candidate_score_rollup_B5636B8D --> per_candidate_score_rollup;
+  era_context_lookup --> candidate_dispatch;
+  candidate_dispatch --> statistical_achievements_scorer;
+  candidate_dispatch --> peer_recognition_scorer;
+  candidate_dispatch --> dominance_window_scorer;
+  candidate_dispatch --> head_to_head_scorer;
+  candidate_dispatch --> cultural_impact_scorer;
+  per_candidate_score_rollup --> per_candidate_narrative_rollup;
+  per_candidate_narrative_rollup --> hot_take_voice;
+  hot_take_voice --> per_candidate_assembly;

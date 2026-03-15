@@ -1,0 +1,121 @@
+{
+  "candidate": {
+    "candidateId": "laimbeer-32",
+    "displayName": "Bill Laimbeer"
+  },
+  "category": "NBA players of the 1990s",
+  "fieldEvaluations": [
+    {
+      "dimension": 4,
+      "score": 0,
+      "pros": [],
+      "cons": [],
+      "successStrategies": [
+        "[DEGRADED] Scorer failed: Unknown error on attempt 1: HTTP 400 (content_filter)\nParameter: prompt\n\nThe response was filtered due to the prompt triggering Azure OpenAI\u0027s content management policy. Please modify your prompt and retry. To learn more about our content filtering policies please read our documentation: https://go.microsoft.com/fwlink/?linkid=2198766"
+      ]
+    },
+    {
+      "dimension": 2,
+      "score": 0,
+      "pros": [],
+      "cons": [],
+      "successStrategies": [
+        "[DEGRADED] Scorer failed: Unknown error on attempt 1: HTTP 400 (content_filter)\nParameter: prompt\n\nThe response was filtered due to the prompt triggering Azure OpenAI\u0027s content management policy. Please modify your prompt and retry. To learn more about our content filtering policies please read our documentation: https://go.microsoft.com/fwlink/?linkid=2198766"
+      ]
+    },
+    {
+      "dimension": 0,
+      "score": 0,
+      "pros": [],
+      "cons": [],
+      "successStrategies": [
+        "[DEGRADED] Scorer failed: Unknown error on attempt 1: HTTP 400 (content_filter)\nParameter: prompt\n\nThe response was filtered due to the prompt triggering Azure OpenAI\u0027s content management policy. Please modify your prompt and retry. To learn more about our content filtering policies please read our documentation: https://go.microsoft.com/fwlink/?linkid=2198766"
+      ]
+    },
+    {
+      "dimension": 1,
+      "score": 0,
+      "pros": [],
+      "cons": [],
+      "successStrategies": [
+        "[DEGRADED] Scorer failed: Unknown error on attempt 1: HTTP 400 (content_filter)\nParameter: prompt\n\nThe response was filtered due to the prompt triggering Azure OpenAI\u0027s content management policy. Please modify your prompt and retry. To learn more about our content filtering policies please read our documentation: https://go.microsoft.com/fwlink/?linkid=2198766"
+      ]
+    },
+    {
+      "dimension": 3,
+      "score": 0,
+      "pros": [],
+      "cons": [],
+      "successStrategies": [
+        "[DEGRADED] Scorer failed: Unknown error on attempt 1: HTTP 400 (content_filter)\nParameter: prompt\n\nThe response was filtered due to the prompt triggering Azure OpenAI\u0027s content management policy. Please modify your prompt and retry. To learn more about our content filtering policies please read our documentation: https://go.microsoft.com/fwlink/?linkid=2198766"
+      ]
+    }
+  ],
+  "weightedScore": 0,
+  "canonicalNarrative": {
+    "candidate": {
+      "candidateId": "laimbeer-32",
+      "displayName": "Bill Laimbeer"
+    },
+    "pros": [
+      "Unable to generate narrative."
+    ],
+    "cons": [],
+    "successStrategies": [],
+    "contradictions": []
+  },
+  "hotTakeNarrative": {
+    "hotTakePros": [],
+    "hotTakeCons": [],
+    "hotTakeSuccessFactors": [],
+    "bestForSummary": "A strong contender for GOAT status: Bill Laimbeer.",
+    "watchOutForSummary": "Review the full analysis for the strongest counter-argument."
+  },
+  "bestForSummary": "A strong contender for GOAT status: Bill Laimbeer.",
+  "watchOutForSummary": "Review the full analysis for the strongest counter-argument.",
+  "isDegraded": true,
+  "failedDimensions": [
+    "CulturalImpact",
+    "DominanceWindow",
+    "StatisticalAchievements",
+    "PeerRecognition",
+    "HeadToHead"
+  ],
+  "scorerDiagnostics": [
+    {
+      "dimension": 4,
+      "failureCode": 4,
+      "failureMessage": "Unknown error on attempt 1: HTTP 400 (content_filter)\nParameter: prompt\n\nThe response was filtered due to the prompt triggering Azure OpenAI\u0027s content management policy. Please modify your prompt and retry. To learn more about our content filtering policies please read our documentation: https://go.microsoft.com/fwlink/?linkid=2198766",
+      "attemptsUsed": 1,
+      "elapsedMs": 5813
+    },
+    {
+      "dimension": 2,
+      "failureCode": 4,
+      "failureMessage": "Unknown error on attempt 1: HTTP 400 (content_filter)\nParameter: prompt\n\nThe response was filtered due to the prompt triggering Azure OpenAI\u0027s content management policy. Please modify your prompt and retry. To learn more about our content filtering policies please read our documentation: https://go.microsoft.com/fwlink/?linkid=2198766",
+      "attemptsUsed": 1,
+      "elapsedMs": 7314
+    },
+    {
+      "dimension": 0,
+      "failureCode": 4,
+      "failureMessage": "Unknown error on attempt 1: HTTP 400 (content_filter)\nParameter: prompt\n\nThe response was filtered due to the prompt triggering Azure OpenAI\u0027s content management policy. Please modify your prompt and retry. To learn more about our content filtering policies please read our documentation: https://go.microsoft.com/fwlink/?linkid=2198766",
+      "attemptsUsed": 1,
+      "elapsedMs": 7347
+    },
+    {
+      "dimension": 1,
+      "failureCode": 4,
+      "failureMessage": "Unknown error on attempt 1: HTTP 400 (content_filter)\nParameter: prompt\n\nThe response was filtered due to the prompt triggering Azure OpenAI\u0027s content management policy. Please modify your prompt and retry. To learn more about our content filtering policies please read our documentation: https://go.microsoft.com/fwlink/?linkid=2198766",
+      "attemptsUsed": 1,
+      "elapsedMs": 10631
+    },
+    {
+      "dimension": 3,
+      "failureCode": 4,
+      "failureMessage": "Unknown error on attempt 1: HTTP 400 (content_filter)\nParameter: prompt\n\nThe response was filtered due to the prompt triggering Azure OpenAI\u0027s content management policy. Please modify your prompt and retry. To learn more about our content filtering policies please read our documentation: https://go.microsoft.com/fwlink/?linkid=2198766",
+      "attemptsUsed": 1,
+      "elapsedMs": 11540
+    }
+  ]
+}

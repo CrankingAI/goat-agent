@@ -1,0 +1,21 @@
+{
+  "metadata": {
+    "scoringWeights": [
+      { "topic": "StatisticalAchievements", "weight": 0.30 },
+      { "topic": "PeerRecognition", "weight": 0.20 },
+      { "topic": "DominanceWindow", "weight": 0.20 },
+      { "topic": "HeadToHead", "weight": 0.15 },
+      { "topic": "CulturalImpact", "weight": 0.15 }
+    ]
+  },
+  "candidate": {
+    "candidateId": "mj-23",
+    "displayName": "Michael Jordan"
+  },
+  "category": "NBA players of the 1990s",
+  "peerCandidates": [
+    { "candidateId": "shaq-32", "displayName": "Shaquille O'Neal" },
+    { "candidateId": "bird-33", "displayName": "Larry Bird" },
+    { "candidateId": "russell-6", "displayName": "Bill Russell" }
+  ]
+}
